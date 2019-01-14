@@ -18,6 +18,7 @@ export default {
   directives: {
     color (el, binding){
       el.style.border = '1px solid #' + binding.value
+      // el.style.backgroundColor = '#' + binding.value
     }
   }
 }
@@ -25,8 +26,8 @@ export default {
 
 <style lang="scss">
 .content{
+  // background-color: #fff;
   display: inline-block;
-  border: 1px solid blue;
   width: 70px;
   height: 70px;
   margin: 10px 5px;
@@ -35,6 +36,7 @@ export default {
     position: absolute;
     top: 0;
     left: 3px;
+    font-size: 13px;
   }
   .abv{
     position: absolute;

@@ -17,7 +17,7 @@ export default {
   // props: ['elementName', 'elementAbv', 'elementNumber', 'elementColor'],
   directives: {
     color (el, binding){
-      el.style.border = '1px solid #' + binding.value
+      el.style.border = '3px solid #' + binding.value
       // el.style.backgroundColor = '#' + binding.value
     }
   }
